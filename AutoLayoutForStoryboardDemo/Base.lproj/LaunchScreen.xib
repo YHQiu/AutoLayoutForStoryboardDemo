@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Default-667h.png" translatesAutoresizingMaskIntoConstraints="NO" id="TVO-q0-Kj4">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TVO-q0-Kj4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NHo-SY-tBO"/>
+                <constraint firstAttribute="trailing" secondItem="TVO-q0-Kj4" secondAttribute="trailing" id="VXe-hp-9vP"/>
+                <constraint firstAttribute="bottom" secondItem="TVO-q0-Kj4" secondAttribute="bottom" id="mDV-QX-R9p"/>
+                <constraint firstItem="TVO-q0-Kj4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sIC-Km-KU7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="NHo-SY-tBO"/>
+                    <exclude reference="VXe-hp-9vP"/>
+                    <exclude reference="mDV-QX-R9p"/>
+                    <exclude reference="sIC-Km-KU7"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="constraints">
+                    <include reference="NHo-SY-tBO"/>
+                    <include reference="VXe-hp-9vP"/>
+                    <include reference="mDV-QX-R9p"/>
+                    <include reference="sIC-Km-KU7"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Default-667h.png" width="375" height="667"/>
+    </resources>
+</document>
